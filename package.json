@@ -1,9 +1,9 @@
 {
-  "name": "react-webpack",
+  "name": "react-webpack-firebase_auth",
   "version": "0.0.1",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
-    "@types/react-redux": "^7.1.20",
+    "firebase": "^9.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
@@ -33,6 +33,7 @@
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
+    "@types/react-redux": "^7.1.20",
     "@types/webpack-dev-server": "^4.3.1",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1",

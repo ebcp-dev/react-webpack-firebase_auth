@@ -6,7 +6,7 @@ const CustomButton = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
   const { children, ...rest } = props;
 
   return (
-    <button className="button" {...rest}>
+    <button className="customButton" {...rest}>
       {children}
     </button>
   );

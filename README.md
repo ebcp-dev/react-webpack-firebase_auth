@@ -1,6 +1,6 @@
 # react-webpack template
 
-A Webpack 5 template for Typescript, React and Redux Toolkit.
+A Webpack 5 template for Typescript, React and Redux Toolkit with Firebase Auth integration.
 
 Contains a simple Todo List implemented with Redux Toolkit.
 
@@ -13,6 +13,7 @@ Jest and React Testing Library: https://www.carlrippon.com/using-jest-and-rtl-wi
 - React
 - Redux
   - Redux Toolkit
+- Firebase Auth
 - Typescript
 - react-router
 - SASS
