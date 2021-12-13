@@ -10,6 +10,8 @@ Guide by Carl Rippon: https://www.carlrippon.com/creating-react-app-with-typescr
 
 Jest and React Testing Library: https://www.carlrippon.com/using-jest-and-rtl-with-react-typescript/
 
+Firebase Auth: https://dev.to/dawx/react-authentication-with-firebase-3ma4
+
 - React
 - Redux
   - Redux Toolkit
