@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 
 import { RootState } from '../../../app/redux/store';
-import { resetPassword } from '../api/firebase_auth';
+import { resetPassword } from '../../../api/firebase_auth';
 
 import CustomButton from '../../../components/CustomButton/CustomButton';
 

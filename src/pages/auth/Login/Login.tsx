@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 
 import { RootState } from '../../../app/redux/store';
-import { loginUser } from '../api/firebase_auth';
+import { loginUser } from '../../../api/firebase_auth';
 
 import CustomButton from '../../../components/CustomButton/CustomButton';
 
@@ -24,7 +24,9 @@ const Login = () => {
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
-    loginUser(emailInput, passwordInput);
+    if (emailInput && passwordInput) {
+      loginUser(emailInput, passwordInput);
+    }
   };
 
   return (
